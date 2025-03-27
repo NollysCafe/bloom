@@ -21,10 +21,10 @@ We aim for **modularity**, **clarity**, and **cozy-first design** in both code a
 | -------- | ----------------------------------- |
 | Frontend | React + Vite + TypeScript           |
 | Backend  | Node.js + Express + TypeScript      |
-| Game     | Phaser or Pixi.js (TBD)             |
-| Database | SQLite (via better-sqlite3)         |
+| Game     | Phaser                              |
+| Database | MariaDB                             |
 | Styling  | SASS                                |
-| Extras   | Howler.js (audio), Postmark (email) |
+| Extras   | Howler.js (audio), SendGrid (email) |
 
 ---
 
@@ -66,7 +66,7 @@ bloom/
 
 ---
 
-## 📦 Modules Overview (TBD)
+## 📦 Modules Overview
 
 We’ll split modules across both front and back. Examples:
 - `/planner` (tasks, calendar, pomodoro)

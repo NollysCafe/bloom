@@ -63,10 +63,10 @@ You don’t need to hustle. You don’t need to grind. You just need to **bloom*
 
 ## 🛠 Tech Stack
 
-| Client       | Server  | Game Layer          | DB             | Extras                  |
-| ------------ | ------- | ------------------- | -------------- | ----------------------- |
-| React + Vite | Node.js | Phaser              | SQLite         | SASS, Howler.js (audio) |
-| TypeScript   | Express | 2D Pixel Art Engine | better-sqlite3 | SendGrid (email)        |
+| Client       | Server  | Game Layer          | DB      | Extras                  |
+| ------------ | ------- | ------------------- | ------- | ----------------------- |
+| React + Vite | Node.js | Phaser              | MariaDB | SASS, Howler.js (audio) |
+| TypeScript   | Express | 2D Pixel Art Engine | MariaDB | SendGrid (email)        |
 
 ---
 
