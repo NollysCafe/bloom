@@ -5,3 +5,4 @@ dist
 # Ignore Files
 *.env
 *.lock
+*-lock.yaml
