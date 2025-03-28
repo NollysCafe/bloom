@@ -8,6 +8,7 @@ import passport from 'passport'
 import { sessionMiddleware } from './middlewares/session'
 import authRoutes from './routes/auth'
 import './config/auth'
+import express from 'express';
 
 
 // Create App instance
@@ -20,6 +21,11 @@ app.addMiddleware(passport.session())
 
 // ROUTES
 app.addRoute('/auth', authRoutes)
+// TODO: Remove this route after testing
+app.addRoute('/', express.Router().get('/', (request: express.Request, response: express.Response) => {
+	if (request.isAuthenticated()) response.json({ user: request.user })
+	else response.redirect('/auth/google')
+}))
 
 
 // Start server
