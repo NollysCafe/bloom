@@ -1,5 +1,5 @@
 import express from 'express'
-import { log } from '../logger'
+import { log } from '@backend/logger'
 
 import fs from 'fs'
 import path from 'path'

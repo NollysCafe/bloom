@@ -4,9 +4,11 @@ export const config = {
 	frontendUrl: process.env.FRONTEND_URL!,
 
 	// SendGrid
-	sendgridApiKey: process.env.SENDGRID_API_KEY!,
-	sendgridFromName: process.env.SENDGRID_FROM_NAME!,
-	sendgridFromMail: process.env.SENDGRID_FROM_MAIL!,
+	sendgrid: {
+		apiKey: process.env.SENDGRID_API_KEY!,
+		fromName: process.env.SENDGRID_FROM_NAME!,
+		fromMail: process.env.SENDGRID_FROM_MAIL!,
+	},
 
 	// PostgreSQL Database
 	database: {

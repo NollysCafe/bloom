@@ -1,6 +1,6 @@
 import { Pool } from 'pg'
 import { config } from '@shared/config'
-import { log } from '../logger'
+import { log } from '@backend/logger'
 
 /**
  * @name database

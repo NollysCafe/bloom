@@ -2,15 +2,19 @@
   "name": "backend",
   "private": true,
   "scripts": {
-		"start": "ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "express-session": "^1.18.1",
     "helmet": "^8.1.0",
     "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
     "pg": "^8.14.1"
   },
   "devDependencies": {
@@ -18,8 +22,11 @@
     "@types/cookie-parser": "^1.4.8",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
+    "@types/express-session": "^1.18.1",
     "@types/morgan": "^1.9.9",
     "@types/node": "^22.13.14",
+    "@types/passport": "^1.0.17",
+    "@types/passport-google-oauth20": "^2.0.16",
     "@types/pg": "^8.11.11",
     "body-parser": "^2.2.0",
     "ts-node": "^10.9.2",
