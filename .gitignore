@@ -6,3 +6,4 @@ dist
 .env
 *.lock
 *-lock.yaml
+*.fuse*

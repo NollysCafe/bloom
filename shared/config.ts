@@ -1,5 +1,6 @@
 export const config = {
 	// Environment
+	env: process.env.NODE_ENV || 'development',
 	backendPort: Number(process.env.BACKEND_PORT!),
 	frontendUrl: process.env.FRONTEND_URL!,
 
@@ -24,5 +25,10 @@ export const config = {
 	google: {
 		clientId: process.env.GOOGLE_CLIENT_ID!,
 		clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+	},
+
+	// Express Session
+	session: {
+		secret: process.env.SESSION_SECRET!,
 	},
 }
