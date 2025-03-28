@@ -1,0 +1,30 @@
+div.button-group {
+	display: flex;
+	flex-wrap: wrap;
+
+	// Alignment
+	&.left {
+		justify-content: flex-start;
+	}
+
+	&.center {
+		justify-content: center;
+	}
+
+	&.right {
+		justify-content: flex-end;
+	}
+
+	// Gap
+	&.small {
+		gap: 0.5rem;
+	}
+
+	&.medium {
+		gap: 1rem;
+	}
+
+	&.large {
+		gap: 2rem;
+	}
+}
