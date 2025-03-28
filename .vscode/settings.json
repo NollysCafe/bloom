@@ -1,0 +1,15 @@
+{
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.formatOnSave": false,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.useTabStops": true,
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": null,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "never"
+	},
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+}
