@@ -7,4 +7,4 @@ dist
 *.lock
 *-lock.yaml
 *.fuse*
-_*
+*.local.*
