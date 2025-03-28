@@ -1,0 +1,25 @@
+name: 🍃 Soft Task
+description: Use this for low-stress to-dos, content writing, emotional flows, or anything not strictly code.
+labels: [task, soft, cozy]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🍯 Let's take this one soft step at a time
+  - type: input
+    id: title
+    attributes:
+      label: Task Name
+      placeholder: “Write pet reaction messages” or “Design tea-brewing ritual”
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this matter?
+      placeholder: “It adds emotional depth,” or “This boosts the feedback loop.”
+  - type: textarea
+    id: approach
+    attributes:
+      label: How would you like to go about it?
+      placeholder: “Just sketching ideas,” or “Can code the base then iterate”

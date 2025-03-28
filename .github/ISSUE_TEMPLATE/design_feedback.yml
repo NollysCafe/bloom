@@ -1,0 +1,20 @@
+name: 🎨 Design Feedback
+description: UX, UI, pixel art, color palettes — all design thoughts go here!
+labels: [design, feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🎀 Share your soft design brain
+
+        We want bloom to feel like a warm pixel blanket.
+  - type: textarea
+    id: what-you-noticed
+    attributes:
+      label: What's working / what's not?
+      placeholder: E.g., “This menu feels too cramped” or “I LOVE this animation!”
+  - type: textarea
+    id: mood-words
+    attributes:
+      label: What should this design *feel* like?
+      placeholder: Soft? Magical? Playful? Calm? Ritualistic?

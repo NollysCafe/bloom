@@ -1,0 +1,32 @@
+name: ✨ Feature Request
+description: Got a cozy new idea? Suggest it here!
+labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🧃 What magic are you imagining?
+
+        Let us know what would make bloom even better ✨
+  - type: input
+    id: title
+    attributes:
+      label: Feature title
+      placeholder: “Seasonal pet events” or “Ritual stickers”
+      description: Short & sweet!
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      placeholder: Tell us how it works, feels, or fits into bloom
+  - type: checkboxes
+    id: goals
+    attributes:
+      label: What does this enhance?
+      options:
+        - label: Productivity
+        - label: Emotional support
+        - label: Aesthetics/Vibes
+        - label: Gameplay/fun
