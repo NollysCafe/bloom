@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import App from './config/app'
 import express from 'express'
-import { config } from './config'
+import { config } from '../../shared/config'
 import { log } from './logger'
 
 // Create App instance
