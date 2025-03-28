@@ -1,0 +1,16 @@
+{
+	"name": "bloom",
+	"version": "0.0.1",
+	"workspaces": [
+		"backend",
+		"frontend"
+	],
+	"scripts": {
+		"start": "pnpm run start --filter ./frontend & pnpm run start --filter ./backend",
+		"dev": "pnpm run dev --filter ./frontend & pnpm run dev --filter ./backend",
+		"build": "pnpm run build --filter ./frontend & pnpm run build --filter ./backend"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.7"
+	}
+}

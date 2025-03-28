@@ -3,6 +3,6 @@ node_modules
 dist
 
 # Ignore Files
-*.env
+.env
 *.lock
 *-lock.yaml

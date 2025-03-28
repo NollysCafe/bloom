@@ -1,7 +1,7 @@
 export const config = {
 	// Environment
-	backendPort: Number(process.env.BACKEND_PORT || 3000),
-	frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
+	backendPort: Number(process.env.BACKEND_PORT!),
+	frontendUrl: process.env.FRONTEND_URL!,
 
 	// SendGrid
 	sendgridApiKey: process.env.SENDGRID_API_KEY!,
@@ -10,9 +10,9 @@ export const config = {
 
 	// PostgreSQL Database
 	database: {
-		type: process.env.DATABASE_TYPE || 'postgresql',
+		type: process.env.DATABASE_TYPE!,
 		host: process.env.DATABASE_HOST!,
-		port: Number(process.env.DATABASE_PORT || 5432),
+		port: Number(process.env.DATABASE_PORT!),
 		name: process.env.DATABASE_NAME!,
 		user: process.env.DATABASE_USER!,
 		password: process.env.DATABASE_PASSWORD!,
