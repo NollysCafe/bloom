@@ -1,4 +1,8 @@
 export const config = {
+	// Environment
+	backendPort: Number(process.env.BACKEND_PORT || 3000),
+	frontendUrl: process.env.FRONTEND_URL || 'http://localhost:3000',
+
 	// SendGrid
 	sendgridApiKey: process.env.SENDGRID_API_KEY!,
 	sendgridFromName: process.env.SENDGRID_FROM_NAME!,
