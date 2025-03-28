@@ -42,6 +42,84 @@ This document tracks the project's full progress from identity to delivery.
 
 ---
 
+## 🌼 PHASE 0.5: Welcome & Identity
+
+---
+
+### 🛖 STEP 0.5.1: Public-Facing Frontend
+
+| Page            | Description                              | Status  |
+| --------------- | ---------------------------------------- | ------- |
+| Landing         | Hero, value, XP loop, quotes, footer     | ❌      |
+| About           | Story, mission, ethos, team              | ❌      |
+| How It Works    | System overview, XP, modules             | ❌      |
+| FAQ             | Core answers (non-therapy, privacy, etc) | ❌      |
+| Terms & Privacy | Kind legal pages                         | ❌      |
+| Waitlist/Signup | Optional pre-reg email system            | ❌      |
+
+---
+
+#### 🏠 Landing Page
+
+| Microtask           | Description                                 | Status  |
+| ------------------- | ------------------------------------------- | ------- |
+| Hero block          | Tagline, CTA, animated background           | ❌      |
+| Value proposition   | What is bloom? (3-point intro with visuals) | ❌      |
+| XP Loop preview     | Visual demo / image + explanation           | ❌      |
+| Testimonials/Quotes | Cozy soft user quotes                       | ❌      |
+| Footer              | Contact, links, credits, license            | ❌      |
+
+---
+
+#### 💌 About Page
+
+| Microtask     | Description                       | Status  |
+| ------------- | --------------------------------- | ------- |
+| Our mission   | Calm manifesto & philosophy       | ❌      |
+| Café ethos    | Why Nolly’s Café?                 | ❌      |
+| Meet the team | Pixel bios with art & cozy intros | ❌      |
+
+---
+
+#### 🎮 How It Works
+
+| Microtask           | Description                                | Status  |
+| ------------------- | ------------------------------------------ | ------- |
+| Core loop           | Tasks → Mood → XP = Bloom flow explained  | ❌      |
+| Modules overview    | Rituals, pets, planner, mood, farming      | ❌      |
+| Gamification ethics | No grind, no shame, no burnout ✨          | ❌      |
+
+---
+
+#### ❓ FAQ Page
+
+| Microtask                   | Description                               | Status  |
+| --------------------------- | ----------------------------------------- | ------- |
+| Is bloom therapy?           | Clear answer + mental health boundaries   | ❌      |
+| Do I need to be productive? | “Just vibe” answer                        | ❌      |
+| Privacy & safety            | Local-first, no tracking, gentle security | ❌      |
+| Stack transparency          | Tech stack + open source info             | ❌      |
+
+---
+
+#### 📜 Legal Pages
+
+| Microtask      | Description                  | Status  |
+| -------------- | ---------------------------- | ------- |
+| Terms of Use   | Clear and kind language      | ❌      |
+| Privacy Policy | Plain-english privacy policy | ❌      |
+
+---
+
+#### ✉️ Waitlist/Signup Flow (Optional)
+
+| Microtask     | Description                               | Status  |
+| ------------- | ----------------------------------------- | ------- |
+| Waitlist form | Email input with confirmation             | ❌      |
+| Email webhook | SendGrid welcome email trigger (optional) | ❌      |
+
+---
+
 ## 🌱 PHASE 1: Core Life OS
 
 ---
